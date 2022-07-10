@@ -117,9 +117,10 @@ body {
 /* ESTILOS AL MAIN */
 
 /* main-section1 styles */
+
 .main-section1 {
   display: grid;
-  margin: 20px 34px;
+  margin: 26px 34px;
 }
 .section1-list {
   justify-self: center;
@@ -196,9 +197,10 @@ body {
 }
 
 /* main-section2 styles */
+
 .main-section2 {
   width: 100%;
-  padding: 40px 0;
+  padding: 30px 0;
   background-color: var(--soft-green);
 }
 .main-section2 h1 {
@@ -212,7 +214,7 @@ body {
 .testimony-container {
   display: grid;
   justify-items: center;
-  gap: 42px;
+  gap: 64px;
 }
 /* testimony-card1 */
 .testimony-card1 {
@@ -220,18 +222,30 @@ body {
   justify-items: center;
   text-align: center;
   min-width: 320px;
-  padding: 20px 30px;
-  background-color: #fff;
+  padding: 44px 30px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 16px;
+  position: relative;
 }
 .testimony-card1__textContainer {
   max-width: 260px;
   min-width: 160px;
   height: 100%;
 }
+.testimony-card1__textContainer h2 {
+  padding-bottom: 10px;
+  font-size: 2.4rem;
+  color: rgb(20, 20, 20);
+}
+.testimony-card1__textContainer p {
+  font-size: 1.6rem;
+  color: var(--gray-txt);
+}
 .testimony-card1 img {
   width: 110px;
   height: 100px;
+  position: absolute;
+  top: -46px;
 }
 /* .testimony-card2 */
 .testimony-card2 {
@@ -239,18 +253,30 @@ body {
   justify-items: center;
   text-align: center;
   min-width: 320px;
-  padding: 20px 30px;
-  background-color: #fff;
+  padding: 44px 30px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 16px;
+  position: relative;
 }
 .testimony-card2__textContainer {
   max-width: 260px;
   min-width: 160px;
   height: 100%;
 }
+.testimony-card2__textContainer h2 {
+  padding-bottom: 10px;
+  font-size: 2.4rem;
+  color: rgb(20, 20, 20);
+}
+.testimony-card2__textContainer p {
+  font-size: 1.6rem;
+  color: var(--gray-txt);
+}
 .testimony-card2 img {
   width: 120px;
   height: 120px;
+  top: -58px;
+  position: absolute;
 }
 /* .testimony-card3 */
 .testimony-card3 {
@@ -259,16 +285,118 @@ body {
   text-align: center;
   min-width: 320px;
   max-width: 260px;
-  padding: 20px 30px;
-  background-color: #fff;
+  padding: 44px 30px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 16px;
+  position: relative;
 }
 .testimony-card3__textContainer {
   max-width: 260px;
   min-width: 160px;
   height: 100%;
 }
+.testimony-card3__textContainer h2 {
+  padding-bottom: 10px;
+  font-size: 2.4rem;
+  color: rgb(20, 20, 20);
+}
+.testimony-card3__textContainer p {
+  font-size: 1.6rem;
+  color: var(--gray-txt);
+}
 .testimony-card3 img {
   width: 100px;
   height: 100px;
+  top: -48px;
+  position: absolute;
+}
+
+/* main-section3 styles */
+
+.main-section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* section3-menu-who styles */
+.section3-menu-who {
+  width: 80%;
+  text-align: justify;
+  margin-top: 20px;
+  padding: 14px 18px;
+  cursor: pointer;
+  background-color: var(--just-grey);
+}
+.section3-menu-who__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 1.8rem;
+  color: var(--dark-green);
+  font-weight: bold;
+}
+.section3-menu-who__icon {
+  width: 22px;
+  height: 22px;
+  background-image: url("/assets/icons/menuSection-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+/* section2-menu-what styles */
+.section3-menu-what {
+  width: 80%;
+  text-align: justify;
+  margin-top: 20px;
+  padding: 14px 18px;
+  cursor: pointer;
+  background-color: var(--just-grey);
+}
+.section3-menu-what__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 1.8rem;
+  color: var(--dark-green);
+  font-weight: bold;
+}
+.section3-menu-what__icon {
+  width: 22px;
+  height: 22px;
+  background-image: url("/assets/icons/menuSection-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+/* section2-menu-how styles */
+.section3-menu-how {
+  width: 80%;
+  text-align: justify;
+  margin-top: 20px;
+  padding: 14px 18px;
+  cursor: pointer;
+  background-color: var(--just-grey);
+}
+
+.section3-menu-how__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 1.8rem;
+  color: var(--dark-green);
+  font-weight: bold;
+}
+.section3-menu-how__icon {
+  width: 22px;
+  height: 22px;
+  background-image: url("/assets/icons/menuSection-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
 }
