@@ -88,6 +88,13 @@ body {
 }
 
 /* MAIN-BUTTON styling */
+.mainButton-container {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  height: 70px;
+  margin-top: 10px;
+}
 .main-button {
   padding: 0.3rem 2.5rem;
   font-size: 14px;
@@ -98,7 +105,7 @@ body {
   background-color: #fff;
   border: none;
   border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
@@ -1488,7 +1495,39 @@ body {
 }
 .main-section7 h3 {
   font-size: 3rem;
+  text-align: center;
   color: var(--dark-green);
 }
 
 /* footer style */
+.special-offer {
+  color: var(--just-white);
+  background-color: var(--dark-green);
+  text-align: center;
+  padding: 14px 8px;
+}
+.special-offer h1 {
+  font-weight: 400;
+  margin-bottom: 8px;
+  font-size: 2.2rem;
+}
+.special-offer p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.mySign {
+  text-align: center;
+  margin: 8px 0;
+}
+.mySign h1 {
+  font-size: 2.2rem;
+}
+.mySign h1 span {
+  color: red;
+}
+.mySign h2 {
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+}
