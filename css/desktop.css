@@ -78,3 +78,188 @@
 .coupons-percentBar p {
   margin-left: 64px;
 }
+
+/* main-section5 styles */
+
+/* bonus styles */
+
+/* bonus #1 */
+.bonus1 {
+  width: 550px;
+  padding: 36px;
+}
+.bonus1-title {
+  font-size: 2.9rem;
+  border-radius: 30px;
+  top: -25px;
+}
+.bonus1 h2 {
+  font-size: 2.5rem;
+}
+.bonus1 p {
+  font-size: 2.1rem;
+}
+.bonus1 ul li {
+  font-size: 2.1rem;
+}
+.bonus1 h3 {
+  font-size: 3rem;
+  margin-top: 27px;
+}
+.bonus1 h4 {
+  font-size: 3.3rem;
+}
+
+/* bonus #2 */
+.bonus2 {
+  width: 550px;
+  padding: 36px;
+}
+.bonus2-title {
+  font-size: 2.9rem;
+  border-radius: 30px;
+  top: -25px;
+}
+.bonus2 h2 {
+  font-size: 2.5rem;
+}
+.bonus2 p {
+  font-size: 2.1rem;
+}
+.bonus2 ul li {
+  font-size: 2.1rem;
+  margin: 0 75px;
+}
+.bonus2 h3 {
+  font-size: 3rem;
+  margin-top: 27px;
+}
+.bonus2 h4 {
+  font-size: 3.3rem;
+}
+
+/* bonus #3 */
+.bonus3 {
+  width: 550px;
+  padding: 36px;
+}
+.bonus3-title {
+  font-size: 2.9rem;
+  border-radius: 30px;
+  top: -25px;
+}
+.bonus3 h2 {
+  font-size: 2.5rem;
+}
+.bonus3 p {
+  font-size: 2.1rem;
+}
+.bonus3 ul li {
+  font-size: 2.1rem;
+  margin: 0 75px;
+}
+.bonus3 h3 {
+  font-size: 3rem;
+  margin-top: 27px;
+}
+.bonus3 h4 {
+  font-size: 3.3rem;
+}
+
+/* bonus #4 */
+.bonus4 {
+  width: 550px;
+  padding: 36px;
+}
+.bonus4-title {
+  font-size: 2.9rem;
+  border-radius: 30px;
+  top: -25px;
+}
+.bonus4 h2 {
+  font-size: 2.5rem;
+}
+.bonus4 p {
+  font-size: 2.1rem;
+}
+.bonus4 h3 {
+  font-size: 3rem;
+  margin-top: 27px;
+}
+.bonus4 h4 {
+  font-size: 3.3rem;
+}
+
+/* bonus #5 */
+.bonus5 {
+  width: 550px;
+  padding: 36px;
+}
+.bonus5-title {
+  font-size: 2.9rem;
+  border-radius: 30px;
+  top: -25px;
+}
+.bonus5 h2 {
+  font-size: 2.5rem;
+}
+.bonus5 p {
+  font-size: 2.1rem;
+}
+.bonus5 ul li {
+  font-size: 2.1rem;
+  margin: 0 75px;
+}
+.bonus5 h3 {
+  font-size: 3rem;
+  margin-top: 27px;
+}
+.bonus5 h4 {
+  font-size: 3.3rem;
+}
+
+/* bonus #2 */
+.bonus6 {
+  width: 550px;
+  padding: 36px;
+}
+.bonus6-title {
+  font-size: 2.9rem;
+  border-radius: 30px;
+  top: -25px;
+}
+.bonus6 h2 {
+  font-size: 2.5rem;
+}
+.bonus6 p {
+  font-size: 2.1rem;
+}
+
+/* main-section7 styles */
+.aboutProducer {
+  width: 450px;
+  padding: 32px;
+  border-radius: 32px;
+  padding-top: 170px;
+  position: relative;
+}
+.aboutProducer img {
+  margin-bottom: 0px;
+  position: absolute;
+  top: 2px;
+}
+.aboutProducer h2 {
+  font-size: 3.5rem;
+}
+.aboutProducer p {
+  font-size: 2rem;
+  line-height: 160%;
+}
+.guarantee {
+  width: 830px;
+  gap: 250px;
+}
+.main-section7 h3 {
+  font-size: 3.9rem;
+  width: 700px;
+}
