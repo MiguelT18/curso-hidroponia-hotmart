@@ -2,6 +2,7 @@
 
 .main-header h1 {
   font-size: 4.2rem;
+  margin: 0 32px;
 }
 .header-text {
   font-size: 1.9rem;
@@ -15,4 +16,65 @@
 .header-video video {
   width: 550px;
   height: 330px;
+}
+
+/* MAIN STYLES */
+
+/* main-section1 styles */
+
+.main-info {
+  gap: 130px;
+}
+
+/* main-section3 styles */
+
+.main-section3 h1 {
+  margin-bottom: 12px;
+}
+.details-container {
+  gap: 110px;
+}
+
+/* main-section4 styles */
+
+/* offer styles */
+.offer h1 {
+  margin: 14px 0 18px;
+}
+.offer-timer {
+  max-width: 360px;
+  border-radius: 22px;
+}
+.block {
+  font-size: 3.8rem;
+}
+.offer-timer h2 {
+  font-size: 2.7rem;
+}
+.offer-timer > p {
+  font-size: 2rem;
+}
+
+/* onePay styles */
+.onePay {
+  width: 360px;
+  height: 210px;
+  border-radius: 22px;
+  margin-top: 36px;
+}
+.onePay p {
+  font-size: 2rem;
+}
+#onePay-mainButton {
+  top: 186px;
+}
+.coupons-percentBar {
+  width: 304px;
+  height: 24px;
+}
+.coupons-percentBar::after {
+  width: 80px;
+}
+.coupons-percentBar p {
+  margin-left: 64px;
 }

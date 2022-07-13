@@ -784,12 +784,12 @@ body {
 .hours::after {
   content: ":";
   margin-left: 14px;
-  color: orange;
+  color: #d60000;
 }
 .minutes::after {
   content: ":";
   margin-left: 14px;
-  color: orange;
+  color: #d60000;
 }
 .seconds {
   padding-right: 20px;
